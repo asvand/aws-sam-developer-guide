@@ -39,7 +39,7 @@ IOT Rule Example
 
 ```
 IoTRule:
-  Type: IoTRule
+  Type: AWS::Serverless::IoTRule
   Properties:
     Sql: SELECT * FROM 'topic/test'
 ```
